@@ -1,0 +1,73 @@
+body{
+    background-color:      #2c2c2c  ;
+    
+    margin:20px 20px;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width:800px;
+    margin:0 auto;
+    background-color: #e5e9ea;
+    border-radius: 10px;
+}
+
+header{
+    padding: 50px ;
+    overflow: hidden;
+}
+
+header > #logo{
+    font-size:2em;
+    float: left;
+}
+nav{
+    float:right;
+}
+
+main{
+    padding: 50px;
+    overflow: hidden;
+
+}
+section{
+    width: 70%;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    float:right;
+   
+    padding: 2px;
+   
+    
+    
+}
+aside a{
+    color: blue;
+}
+
+
+aside h3{
+    background-color: black;
+    color:white;
+    padding: 10px;
+}
+h2 h3{
+    margin: 0;
+}
+
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+}
+article:last-child{
+    border-bottom: 0px ;
+}
+
+footer{
+    padding: 20px;
+    border-top:  0.00001px solid #2c2c2c;
+    text-align: center;
+}
